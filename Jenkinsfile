@@ -28,7 +28,7 @@ pipeline {
         }
         stage('Terraform Apply') {
             steps {
-                sh 'terraform apply -auto-change'
+                sh 'terraform apply -auto'
     }
 }
     }
